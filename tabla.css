@@ -1,0 +1,235 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.logo-menu {
+    width: 70px;
+    height: auto;
+    padding-left: 30px;
+}
+
+.items li {
+    display: inline-block;
+    padding: 0 30px;
+
+    ;
+}
+
+.botones {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.botones:hover {
+    color: #888;
+}
+
+body {
+    margin: 0;
+    background: black;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    color: white;
+}
+
+tr {
+    text-align: center;
+    color: white;
+}
+
+td {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logos {
+    width: 40px;
+    height: 40px;
+
+}
+
+.tabla {
+    background-image: url("Background.jpg");
+    background-size: cover;
+    height: 50pc;
+}
+
+.titulo-tabla {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.titulo-liga {
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    margin-top: -10px;
+    margin-right: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.titulos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+.champions {
+    border-left: 5px solid #080;
+    font-weight: bold;
+}
+
+.europa {
+    border-left: 5px solid #00c;
+}
+
+.conference {
+    border-left: 5px solid #ff3;
+}
+
+.promocion {
+    border-left: 5px solid #f80;
+}
+
+.descenso {
+    border-left: 5px solid #f00;
+}
+
+.clasificacion-champions {
+    width: 200px;
+    height: 50px;
+    border-left: 5px solid #080;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.clasificacion-europa {
+    width: 180px;
+    height: 50px;
+    border-left: 5px solid #00c;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.clasificacion-conference {
+    width: 200px;
+    height: 50px;
+    border-left: 5px solid #ff3;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.clasificacion-promocion {
+    width: 120px;
+    height: 50px;
+    border-left: 5px solid #f80;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.clasificacion-descenso {
+    width: 120px;
+    height: 50px;
+    border-left: 5px solid #f00;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box {
+    width: 200px;
+    background: transparent;
+}
+
+.clasificaciones {
+    display: flex;
+    justify-content: center;
+}
+
+.descensos {
+    display: flex;
+    justify-content: center;
+}
+
+.box-final {
+    width: auto;
+    height: 300px;
+    background: #222;
+    display: flex;
+    flex: 4;
+}
+
+.logo-liga {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+.sponsors {
+    text-align: center;
+    color: white;
+    width: 700px;
+    height: 50px;
+    padding: 20px;
+    font-size: 50px;
+    left: 600px;
+
+}
+
+.fondo-logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-sponsor1 {
+    width: auto;
+    height: 100px;
+    margin: 50px 30px 0 30px;
+}
+
+.publicidad1 {
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;;
+    color: white;
+    font-size: 18px;
+}
+
+.publicidad2 {
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;;
+    color: white;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.final {
+    background: #000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}

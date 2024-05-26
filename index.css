@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    background: black;
+}
+
+.fondo {
+    background: url("Background.jpg");
+    width: auto;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    background: #000;
+}
+
+
+.logo-menu {
+    width: 70px;
+    height: auto;
+    padding-left: 30px;
+}
+
+.items li {
+    display: inline-block;
+    padding: 0 30px;
+
+    ;
+}
+
+.botones {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.botones:hover {
+    color: #888;
+}
+
+.fondo {
+    width: 100%;
+    height: auto;
+}
+    
+
+.titulo {
+    color: #fff;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0 50px 0 50px;
+}
+
+.subtitulo {
+    color: #fff;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 50px 0 50px;
+}
+
+.titulo-video {
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+
+}
+
+.titulo-foto {
+    color: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+
+
+.fotos {
+    transition: 2s;
+    margin: 10px 50px 20px 50px;
+    
+}
+
+.fotos:hover {
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.box-final {
+    width: auto;
+    height: 300px;
+    background: #222;
+    display: flex;
+    flex: 4;
+}
+
+.logo-liga {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+.sponsors {
+    text-align: center;
+    color: white;
+    width: 700px;
+    height: 50px;
+    padding: 20px;
+    font-size: 50px;
+    left: 600px;
+
+}
+
+.fondo-logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-sponsor1 {
+    width: auto;
+    height: 100px;
+    margin: 50px 30px 0 30px;
+}
+
+
+.publicidad1 {
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;;
+    color: white;
+    font-size: 18px;
+}
+
+.publicidad2 {
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;;
+    color: white;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.final {
+    background: #000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
